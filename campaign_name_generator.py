@@ -53,11 +53,11 @@ market = colmarket.selectbox(
 colstore, colarea = st.columns(2)
 store = colstore.selectbox(
     'Store Name:',
-    ('Null', 'Deira-City-Center')
+    ('Null', 'DeiraCityCenter')
 )
 area = colarea.selectbox(
     'Target Area:',
-    ('Null', 'Dubai', 'Abu-Dahbi', 'Riyadh')
+    ('Null', 'Dubai', 'AbuDahbi', 'Riyadh')
 )
 
 colbuytype, coltargeting = st.columns(2)
@@ -79,7 +79,7 @@ placement = colplacement.selectbox(
 )
 special_offer = colspecialoffer.selectbox(
     'Special Offer Title:',
-    ('Null', 'Special-Offer', 'Ramadan-Wrap-Up', 'Testimonial')
+    ('Null', 'SpecialOffer', 'RamadanWrapUp', 'Testimonial')
 )
 
 
@@ -93,7 +93,7 @@ product = colproduct.selectbox(
 )
 product_variant = colproductvariant.selectbox(
     'Product Variant/Creative Name:',
-    ('Null', 'Shampoo-Strong-Hold', 'Conditioner-Medium-Hold')
+    ('Null', 'ShampooStrongHold', 'ConditionerMediumHold')
 )
 
 collanguage, colgender = st.columns(2)
@@ -103,19 +103,19 @@ language = collanguage.selectbox(
 )
 gender = colgender.selectbox(
     'Target Gender:',
-    ('Null', 'Male', 'Female', 'Male-&-Female')
+    ('Null', 'Male', 'Female', 'Male&Female')
 )
 
 
 colage, colformat = st.columns(2)
 age = colage.selectbox(
     'Target Age:',
-    ('Null', '18-24', '25-34')
+    ('Null', '18to24', '25to34')
 )
 format = colformat.selectbox(
     'Ad Format:',
-    ('Null', 'Static-Image', 'Video', 'Carousel', 'Catalog', 'Responsive-Ad', 
-    'Expended-Ad', 'Gmail-Ad', 'Discovery-Ad', 'HTML5', 'Static-Display-(GDN)')
+    ('Null', 'StaticImage', 'Video', 'Carousel', 'Catalog', 'ResponsiveAd', 
+    'ExpendedAd', 'GmailAd', 'DiscoveryAd', 'HTML5', 'StaticDisplay-(GDN)')
 )
 
 
@@ -182,7 +182,7 @@ else:
 if product == 'Null':
     coded_product = product.replace('Null', 'P0')
 else:
-    coded_product = product.replace('Null', 'P0')
+    coded_product = product.repalce('Null', 'P0')
 
 # Special Offer Coding
 if special_offer == 'Null':
