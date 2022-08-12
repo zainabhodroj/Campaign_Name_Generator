@@ -182,7 +182,7 @@ else:
 if product == 'Null':
     coded_product = product.replace('Null', 'P0')
 else:
-    coded_product = product.repalce('Null', 'P0')
+    coded_product = product.replace('Null', 'P0')
 
 # Special Offer Coding
 if special_offer == 'Null':
