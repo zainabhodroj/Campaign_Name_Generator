@@ -128,7 +128,7 @@ month = colmonth.selectbox(
     'Campaign Initiation Month:',
     ('Null', 'January', 'February', 'March', 'April', 'May',
     'June', 'July', 'August', 'September', 'October', 
-    'November', 'December')
+    'November', 'December', '15August')
 )
 
 st.title('')
