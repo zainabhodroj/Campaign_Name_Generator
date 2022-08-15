@@ -267,8 +267,8 @@ with main_structure:
     st.subheader('Campaign Name:')
     st.write('Campaign Name:')
     st.code(main_campaign_name)
-    st.write('Coded Campaign Name:')
-    st.code(coded_main_campaign_name)
+    #st.write('Coded Campaign Name:')
+    #st.code(coded_main_campaign_name)
 
     st.title('')
 
@@ -287,13 +287,13 @@ with google_structure:
     st.subheader('Campaign Name:')
     st.write('Campaign Name For [Google Search]:')
     st.code(search_campaign_name)
-    st.write('Coded Campaign Name For [Google Search]:')
-    st.code(coded_search_campaign_name)
+    #st.write('Coded Campaign Name For [Google Search]:')
+    #st.code(coded_search_campaign_name)
     st.title('')
     st.write('Campaign Name For [YouTube and GDN]:')
     st.code(google_campaign_name)
-    st.write('Coded Campaign Name For [YouTube and GDN]:')
-    st.code(coded_google_campaign_name)
+    #st.write('Coded Campaign Name For [YouTube and GDN]:')
+    #st.code(coded_google_campaign_name)
 
     st.title('')
 
@@ -314,8 +314,8 @@ with linkedin_structure:
     st.subheader('Campaign Group Name:')
     st.write('Campaign Group Name:')
     st.code(linkedin_campaign_group_name)
-    st.write('Coded Campaign Name:')
-    st.code(coded_linkedin_campaign_group_name)
+    #st.write('Coded Campaign Name:')
+    #st.code(coded_linkedin_campaign_group_name)
 
     st.title('')
 
