@@ -89,7 +89,7 @@ st.title('')
 colproduct, colproductvariant = st.columns(2)
 product = colproduct.selectbox(
     'Product Name:',
-    ('Null', 'Dueler', 'Potenza', 'Alenza', 'Ecopia','Vatika-Shampoo', 'Amla-Hair-Oil')
+    ('Null', 'Dueler', 'Potenza', 'Alenza', 'Ecopia','VatikaShampoo', 'AmlaHairOil')
 )
 product_variant = colproductvariant.selectbox(
     'Product Variant/Creative Name:',
@@ -99,11 +99,11 @@ product_variant = colproductvariant.selectbox(
 collanguage, colgender = st.columns(2)
 language = collanguage.selectbox(
     'Target Language:',
-    ('Null', 'EN', 'AR', 'EN&AR')
+    ('Null', 'En', 'Ar', 'EnAr')
 )
 gender = colgender.selectbox(
     'Target Gender:',
-    ('Null', 'Male', 'Female', 'Male&Female')
+    ('Null', 'Male', 'Female', 'MaleFemale')
 )
 
 
@@ -115,7 +115,7 @@ age = colage.selectbox(
 format = colformat.selectbox(
     'Ad Format:',
     ('Null', 'StaticImage', 'Video', 'Carousel', 'Catalog', 'ResponsiveAd', 
-    'ExpendedAd', 'GmailAd', 'DiscoveryAd', 'HTML5', 'StaticDisplay-(GDN)')
+    'ExpendedAd', 'GmailAd', 'DiscoveryAd', 'HTML5', 'StaticDisplay(GDN)')
 )
 
 
