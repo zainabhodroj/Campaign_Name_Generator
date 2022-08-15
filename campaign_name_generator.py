@@ -89,11 +89,11 @@ st.title('')
 colproduct, colproductvariant = st.columns(2)
 product = colproduct.selectbox(
     'Product Name:',
-    ('Null', 'Dueler', 'Potenza', 'Alenza', 'Ecopia','VatikaShampoo', 'AmlaHairOil')
+    ('Null', 'Dueler', 'Potenza', 'Alenza', 'Ecopia', 'ContentHub', 'VatikaShampoo', 'AmlaHairOil')
 )
 product_variant = colproductvariant.selectbox(
     'Product Variant/Creative Name:',
-    ('Null', 'ShampooStrongHold', 'ConditionerMediumHold')
+    ('Null', 'SustainableDriving', 'ShampooStrongHold', 'ConditionerMediumHold')
 )
 
 collanguage, colgender = st.columns(2)
@@ -128,7 +128,7 @@ month = colmonth.selectbox(
     'Campaign Initiation Month:',
     ('Null', 'January', 'February', 'March', 'April', 'May',
     'June', 'July', 'August', 'September', 'October', 
-    'November', 'December', '15August', '16August')
+    'November', 'December')
 )
 
 st.title('')
