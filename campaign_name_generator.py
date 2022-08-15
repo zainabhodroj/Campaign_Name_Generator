@@ -29,7 +29,7 @@ st.title('')
 colbrand, colsubbrand = st.columns(2)
 brand = colbrand.selectbox(
      'Brand Title:',
-     ('Null', 'RT', 'Dabur', 'Abbott', 'CapriSun', 'Bridgestone', 'Twenty4', 
+     ('Null', 'RT', 'Dabur', 'Abbott', 'CapriSun', 'Bridgestone', 'Firestone', 'Twenty4', 
      'ALJUF', 'Midea', 'OQ', 'MAMC')
      )
 sub_brand = colsubbrand.selectbox(
@@ -41,11 +41,11 @@ colregion, colmarket = st.columns(2)
 
 region = colregion.selectbox(
     'Target Region:',
-    ('Null', 'GCC', 'MENA')
+    ('Null', 'Multiple', 'GCC', 'MENA')
 )
 market = colmarket.selectbox(
     'Target Market:',
-    ('Null', 'UAE', 'KSA', 'Kuwait', 'Qatar', 'Bahrain', 'Oman', 'Egypt', 'Algeria', 'Morocco', 'Libya', 
+    ('Null', 'RoGCC', 'UAE', 'KSA', 'Kuwait', 'Qatar', 'Bahrain', 'Oman', 'Egypt', 'Algeria', 'Morocco', 'Libya', 
     'Tunisia', 'Yemen', 'Iraq', 'Jordan', 'Lebanon', 'Kazakhstan')
 )
 
@@ -89,7 +89,7 @@ st.title('')
 colproduct, colproductvariant = st.columns(2)
 product = colproduct.selectbox(
     'Product Name:',
-    ('Null', 'Vatika-Shampoo', 'Amla-Hair-Oil')
+    ('Null', 'Dueler', 'Potenza', 'Alenza', 'Ecopia','Vatika-Shampoo', 'Amla-Hair-Oil')
 )
 product_variant = colproductvariant.selectbox(
     'Product Variant/Creative Name:',
