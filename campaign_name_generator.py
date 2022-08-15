@@ -141,70 +141,70 @@ keyword_group = st.selectbox(
 # Coding Sheme
 
 # Brand Coding
-if brand == 'RT':
-    coded_brand = brand.replace('RT', 'B1')
-elif brand == 'Twenty4':
-    coded_brand = brand.replace('Twenty4', 'B2')
-elif brand == 'Dabur':
-    coded_brand = brand.replace('Dabur', 'B3')
-elif brand == 'Abbott':
-    coded_brand = brand.replace('Abbott', 'B4')
-elif brand == 'CapriSun':
-    coded_brand = brand.replace('CapriSun', 'B5')
-elif brand == 'ALJ':
-    coded_brand = brand.replace('ALJ', 'B6')
-elif brand == 'Midea':
-    coded_brand = brand.replace('Midea', 'B7')
-elif brand == 'OQ':
-    coded_brand = brand.replace('OQ', 'B8')
-elif brand == 'Firestone':
-    coded_brand = brand.replace('Firestone', 'B9')
-elif brand == 'Bridgestone':
-    coded_brand = brand.replace('Bridgestone', 'B10')
-elif brand == 'MAMC':
-    coded_brand = brand.replace('MAMC', 'B11')
-else:
-    coded_brand = brand.replace('Null', 'B0')
-
+#if brand == 'RT':
+#    coded_brand = brand.replace('RT', 'B1')
+#elif brand == 'Twenty4':
+#    coded_brand = brand.replace('Twenty4', 'B2')
+#elif brand == 'Dabur':
+#    coded_brand = brand.replace('Dabur', 'B3')
+#elif brand == 'Abbott':
+#    coded_brand = brand.replace('Abbott', 'B4')
+#elif brand == 'CapriSun':
+#    coded_brand = brand.replace('CapriSun', 'B5')
+#elif brand == 'ALJ':
+#    coded_brand = brand.replace('ALJ', 'B6')
+#elif brand == 'Midea':
+#    coded_brand = brand.replace('Midea', 'B7')
+#elif brand == 'OQ':
+#    coded_brand = brand.replace('OQ', 'B8')
+#elif brand == 'Firestone':
+#    coded_brand = brand.replace('Firestone', 'B9')
+#elif brand == 'Bridgestone':
+#    coded_brand = brand.replace('Bridgestone', 'B10')
+#elif brand == 'MAMC':
+#    coded_brand = brand.replace('MAMC', 'B11')
+#else:
+#    coded_brand = brand.replace('Null', 'B0')
+#
 # Subbrand Coding
-if sub_brand == 'Vatika':
-    coded_sub_brand = sub_brand.replace('Vatika', 'SB1')
-elif sub_brand == 'Dermoviva':
-    coded_sub_brand = sub_brand.replace('Dermoviva', 'SB2')
-elif sub_brand == 'Amla':
-    coded_sub_brand = sub_brand.replace('Amla', 'SB3')
-elif sub_brand == 'RTEcom':
-    coded_sub_brand = sub_brand.replace('RTEcom', 'SB4')
-else:
-    coded_sub_brand = sub_brand.replace('Null', 'SB0')
+#if sub_brand == 'Vatika':
+#    coded_sub_brand = sub_brand.replace('Vatika', 'SB1')
+#elif sub_brand == 'Dermoviva':
+#    coded_sub_brand = sub_brand.replace('Dermoviva', 'SB2')
+#elif sub_brand == 'Amla':
+#    coded_sub_brand = sub_brand.replace('Amla', 'SB3')
+#elif sub_brand == 'RTEcom':
+#    coded_sub_brand = sub_brand.replace('RTEcom', 'SB4')
+#else:
+#    coded_sub_brand = sub_brand.replace('Null', 'SB0')
 
 # Product Coding
-if product == 'Null':
-    coded_product = product.replace('Null', 'P0')
-else:
-    coded_product = product.repalce('Null', 'P0')
+#if product == 'Null':
+#    coded_product = product.replace('Null', 'P0')
+#else:
+#    coded_product = product.repalce('Null', 'P0')
 
 # Special Offer Coding
-if special_offer == 'Null':
-    coded_special_offer = special_offer.replace('Null', 'SO0')
-else:
-    coded_special_offer = special_offer.replace('Null', 'SO0')
+#if special_offer == 'Null':
+#    coded_special_offer = special_offer.replace('Null', 'SO0')
+#else:
+#    coded_special_offer = special_offer.replace('Null', 'SO0')
 
 # Keyword Group Coding
-if keyword_group == 'Generic':
-    coded_keyword_group = keyword_group.replace('Generic', 'KG1')
-elif keyword_group == 'Competition':
-    coded_keyword_group = keyword_group.replace('Competition', 'KG2')
-elif brand == 'Brand':
-    coded_keyword_group = keyword_group.replace('Brand', 'KG3')
-else:
-    coded_keyword_group = keyword_group.replace('Null', 'KG0')
+#if keyword_group == 'Generic':
+#    coded_keyword_group = keyword_group.replace('Generic', 'KG1')
+#elif keyword_group == 'Competition':
+#    coded_keyword_group = keyword_group.replace('Competition', 'KG2')
+#elif brand == 'Brand':
+#    coded_keyword_group = keyword_group.replace('Brand', 'KG3')
+#else:
+#    coded_keyword_group = keyword_group.replace('Null', 'KG0')
 
 # Store coding
-if store == 'Null':
-    coded_store = store.replace('Null', 'S0')
-else:
-    coded_store = store.replace('Null', 'S0')
+#if store == 'Null':
+#    coded_store = store.replace('Null', 'S0')
+#else:
+#    coded_store = store.replace('Null', 'S0')
 
 # Campaign, Adset, and Ad names creation
 st.title('')
@@ -219,7 +219,7 @@ main_adset_name = (brand + '_' + sub_brand + '_' + product + '_' + product_varia
 main_ad_name = (product_variant + '_' + special_offer + '_' + language + '_' + format + '_' + month + '_' + year)
 
 
-coded_main_campaign_name = (coded_brand + '_' + coded_sub_brand + '_' + coded_product + '_' + region + '_' + placement + '_' + phase + '_' + 
+#coded_main_campaign_name = (coded_brand + '_' + coded_sub_brand + '_' + coded_product + '_' + region + '_' + placement + '_' + phase + '_' + 
                             buytype + '_' +  coded_special_offer + '_' + month + '_' + year)
 
 
@@ -242,10 +242,10 @@ google_ad_name = (product_variant + '_' + special_offer + '_' + language + '_' +
 
 
 
-coded_search_campaign_name = (coded_brand + '_' + coded_sub_brand + '_' + coded_product + '_' + region + '_' + market + '_' + area + '_' + coded_store + '_' +
+#coded_search_campaign_name = (coded_brand + '_' + coded_sub_brand + '_' + coded_product + '_' + region + '_' + market + '_' + area + '_' + coded_store + '_' +
                         placement + '_' + targeting + '_' + coded_keyword_group + '_' + phase + '_' + buytype + '_' + coded_special_offer + '_' + 
                         language + '_' + gender + '_' + age + '_' + month + '_' + year)
-coded_google_campaign_name = (coded_brand + '_' + coded_sub_brand + '_' + coded_product + '_' + region + '_' + market + '_' + area + '_' + coded_store + '_' +
+#coded_google_campaign_name = (coded_brand + '_' + coded_sub_brand + '_' + coded_product + '_' + region + '_' + market + '_' + area + '_' + coded_store + '_' +
                         placement + '_' + targeting + '_' + phase + '_' + buytype + '_' + coded_special_offer + '_' + 
                         language + '_' + gender + '_' + age + '_' + month + '_' + year)
 
@@ -257,7 +257,7 @@ linkedin_campaign_name = (brand + '_' + sub_brand + '_' + product + '_' + region
                             age + '_' + month + '_' + year)
 linkedin_ad_name = (product_variant + '_' + special_offer + '_' + language + '_' + format + '_' + month + '_' + year)
 
-coded_linkedin_campaign_group_name = (coded_brand + '_' + phase + '_' + buytype + '_' + month + '_' + year)
+#coded_linkedin_campaign_group_name = (coded_brand + '_' + phase + '_' + buytype + '_' + month + '_' + year)
 
 
 ###
