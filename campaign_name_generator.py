@@ -220,7 +220,7 @@ main_ad_name = (product_variant + '_' + special_offer + '_' + language + '_' + f
 
 
 #coded_main_campaign_name = (coded_brand + '_' + coded_sub_brand + '_' + coded_product + '_' + region + '_' + placement + '_' + phase + '_' + 
-                            buytype + '_' +  coded_special_offer + '_' + month + '_' + year)
+#                            buytype + '_' +  coded_special_offer + '_' + month + '_' + year)
 
 
 # Google Ads Campaign Structure
@@ -243,11 +243,11 @@ google_ad_name = (product_variant + '_' + special_offer + '_' + language + '_' +
 
 
 #coded_search_campaign_name = (coded_brand + '_' + coded_sub_brand + '_' + coded_product + '_' + region + '_' + market + '_' + area + '_' + coded_store + '_' +
-                        placement + '_' + targeting + '_' + coded_keyword_group + '_' + phase + '_' + buytype + '_' + coded_special_offer + '_' + 
-                        language + '_' + gender + '_' + age + '_' + month + '_' + year)
+#                        placement + '_' + targeting + '_' + coded_keyword_group + '_' + phase + '_' + buytype + '_' + coded_special_offer + '_' + 
+#                        language + '_' + gender + '_' + age + '_' + month + '_' + year)
 #coded_google_campaign_name = (coded_brand + '_' + coded_sub_brand + '_' + coded_product + '_' + region + '_' + market + '_' + area + '_' + coded_store + '_' +
-                        placement + '_' + targeting + '_' + phase + '_' + buytype + '_' + coded_special_offer + '_' + 
-                        language + '_' + gender + '_' + age + '_' + month + '_' + year)
+#                        placement + '_' + targeting + '_' + phase + '_' + buytype + '_' + coded_special_offer + '_' + 
+#                        language + '_' + gender + '_' + age + '_' + month + '_' + year)
 
 # LinkedIn Campaign Structure
 linkedin_campaign_group_name = (brand + '_' + phase + '_' + buytype + '_' + month + '_' + year)
