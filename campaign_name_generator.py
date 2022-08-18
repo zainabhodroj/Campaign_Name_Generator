@@ -89,7 +89,7 @@ st.title('')
 colproduct, colproductvariant = st.columns(2)
 product = colproduct.selectbox(
     'Product Name:',
-    ('NA', 'Dueler', 'Potenza', 'Alenza', 'Ecopia', 'ContentHub')
+    ('NA', 'Dueler', 'Potenza', 'Alenza', 'Ecopia', 'ContentHub', 'UGC')
 )
 product_variant = colproductvariant.selectbox(
     'Product Variant/Creative Name:',
