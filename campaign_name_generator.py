@@ -93,7 +93,7 @@ product = colproduct.selectbox(
 )
 product_variant = colproductvariant.selectbox(
     'Product Variant/Creative Name:',
-    ('NA', 'SustainableDriving')
+    ('NA', 'SustainableDriving', 'Destination')
 )
 
 collanguage, colgender = st.columns(2)
