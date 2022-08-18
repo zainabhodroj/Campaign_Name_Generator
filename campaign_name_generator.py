@@ -21,7 +21,7 @@ st.title("")
 
 phase = st.selectbox(
     'Campaign Phase:',
-    ('Null', 'Awareness', 'Traffic', 'Conversion')
+    ('NA', 'AWRNS', 'TRFC', 'CONV')
 )
 
 st.title('')
@@ -29,57 +29,57 @@ st.title('')
 colbrand, colsubbrand = st.columns(2)
 brand = colbrand.selectbox(
      'Brand Title:',
-     ('Null', 'RT', 'Dabur', 'Abbott', 'CapriSun', 'Bridgestone', 'Firestone', 'Twenty4', 
+     ('NA', 'RT', 'Dabur', 'Abbott', 'CapriSun', 'BS', 'FS', 'Twnenty4', 
      'ALJUF', 'Midea', 'OQ', 'MAMC')
      )
 sub_brand = colsubbrand.selectbox(
     'Sub-Brand Title:',
-    ('Null', 'Dermoviva', 'Amla', 'Vatika', 'RTEcom')
+    ('NA', 'Dermoviva', 'Amla', 'Vatika', 'RTEcom')
     )
 
 colregion, colmarket = st.columns(2)
 
 region = colregion.selectbox(
     'Target Region:',
-    ('Null', 'Multiple', 'GCC', 'MENA')
+    ('NA', 'Multiple', 'GCC', 'MENA')
 )
 market = colmarket.selectbox(
     'Target Market:',
-    ('Null', 'RoGCC', 'UAE', 'KSA', 'Kuwait', 'Qatar', 'Bahrain', 'Oman', 'Egypt', 'Algeria', 'Morocco', 'Libya', 
-    'Tunisia', 'Yemen', 'Iraq', 'Jordan', 'Lebanon', 'Kazakhstan')
+    ('NA', 'RoGCC', 'UAE', 'KSA', 'KW', 'QA', 'BH', 'OM', 'EG', 'ALG', 'MOROC', 'LBYA', 
+     'YMN', 'IRQ', 'JRDN', 'LEB', 'KAZAKH')
 )
 
 
 colstore, colarea = st.columns(2)
 store = colstore.selectbox(
     'Store Name:',
-    ('Null', 'DeiraCityCenter')
+    ('NA', 'DeiraCityCenter')
 )
 area = colarea.selectbox(
     'Target Area:',
-    ('Null', 'Dubai', 'AbuDahbi', 'Riyadh')
+    ('NA', 'Dubai', 'AbuDahbi', 'Riyadh')
 )
 
 colbuytype, coltargeting = st.columns(2)
 buytype = colbuytype.selectbox(
     'Campaign Buy Type:',
-    ('Null', 'CPMR', 'CPM', 'CPC', 'CPV', 'CPL', 'CPA', 'CPLPV')
+    ('NA', 'CPMR', 'CPM', 'CPC', 'CPV', 'CPL', 'CPA', 'CPLPV')
 )
 targeting = coltargeting.selectbox(
     'Audience Targeting:',
-    ('Null', 'Interest', 'Geofence', 'Remarketing')
+    ('NA', 'INTR', 'GEO', 'RMKT')
 )
 
 
 colplacement, colspecialoffer = st.columns(2)
 placement = colplacement.selectbox(
     'Advertising Media Platform:',
-    ('Null', 'FBIG', 'IG', 'FB', 'GDN', 'Search', 'YouTube', 'Snapchat', 
-    'TikTok', 'LinkedIn', 'Yahoo', 'Speakol', 'Teads')
+    ('NA', 'FBIG', 'IG', 'FB', 'GDN', 'SRCH', 'YT', 'SNAP', 
+    'TT', 'LNKDI', 'YHO', 'SPKL', 'TDS')
 )
 special_offer = colspecialoffer.selectbox(
     'Special Offer Title:',
-    ('Null', 'SpecialOffer', 'RamadanWrapUp', 'Testimonial')
+    ('NA', 'SpecialOffer', 'RamadanWrapUp', 'Testimonial')
 )
 
 
@@ -89,52 +89,52 @@ st.title('')
 colproduct, colproductvariant = st.columns(2)
 product = colproduct.selectbox(
     'Product Name:',
-    ('Null', 'Dueler', 'Potenza', 'Alenza', 'Ecopia', 'ContentHub', 'VatikaShampoo', 'AmlaHairOil')
+    ('NA', 'Dueler', 'Potenza', 'Alenza', 'Ecopia', 'ContentHub')
 )
 product_variant = colproductvariant.selectbox(
     'Product Variant/Creative Name:',
-    ('Null', 'SustainableDriving', 'ShampooStrongHold', 'ConditionerMediumHold')
+    ('NA', 'SustainableDriving')
 )
 
 collanguage, colgender = st.columns(2)
 language = collanguage.selectbox(
     'Target Language:',
-    ('Null', 'En', 'Ar', 'EnAr')
+    ('NA', 'En', 'Ar', 'EnAr')
 )
 gender = colgender.selectbox(
     'Target Gender:',
-    ('Null', 'Male', 'Female', 'MaleFemale')
+    ('NA', 'M', 'F', 'MF')
 )
 
 
 colage, colformat = st.columns(2)
 age = colage.selectbox(
     'Target Age:',
-    ('Null', '18to24', '25to34')
+    ('NA', '18to24', '25to34')
 )
 format = colformat.selectbox(
     'Ad Format:',
-    ('Null', 'StaticImage', 'Video', 'Carousel', 'Catalog', 'ResponsiveAd', 
-    'ExpendedAd', 'GmailAd', 'DiscoveryAd', 'HTML5', 'StaticDisplay(GDN)')
+    ('NA', 'StaticImage', 'Video', 'Carousel', 'Catalog', 'Responsive', 
+    'Expended', 'Gmail', 'Discovery', 'HTML5', 'StaticDisplay')
 )
 
 
 colyear, colmonth = st.columns(2)
 year = colyear.selectbox(
     'Campaign Initiation Year:',
-    ('Null', '2022', '2023')
+    ('NA', '22', '23')
 )
 month = colmonth.selectbox(
     'Campaign Initiation Month:',
-    ('Null', 'January', 'February', 'March', 'April', 'May',
-    'June', 'July', 'August', 'September', 'October', 
-    'November', 'December')
+    ('NA', 'Jan', 'Feb', 'Mar', 'Apr', 'May',
+    'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 
+    'Nov', 'Dec')
 )
 
 st.title('')
 keyword_group = st.selectbox(
     'Keyword Group (For Google Search):',
-    ('Null', 'Generic', 'Competition', 'Brand')
+    ('NA', 'GNRC', 'COMPT', 'BRND')
 )
 
 
