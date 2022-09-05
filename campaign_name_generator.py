@@ -41,7 +41,7 @@ colregion, colmarket = st.columns(2)
 
 region = colregion.selectbox(
     'Target Region:',
-    ('NA', 'Multiple', 'GCC', 'MENA')
+    ('NA', 'Multiple', 'GCC', 'MENA', 'Egypt', 'KSA')
 )
 market = colmarket.selectbox(
     'Target Market:',
@@ -94,7 +94,7 @@ product = colproduct.selectbox(
 product_variant = colproductvariant.selectbox(
     'Product Variant/Creative Name:',
     ('NA', 'SustainableDriving', 'Destination', 'OnOffRoad', 'EngineNoises', 'PotenzaSport', 'SilenceIsGolden', 'UGC', 'AugustPost6', 'AugustPost7',
-     'SeptCarousel', 'AugCarousel', 'SeptHTML5')
+     'SeptCarousel', 'AugCarousel', 'SeptHTML5', 'PostRamadanVideo')
 )
 
 collanguage, colgender = st.columns(2)
