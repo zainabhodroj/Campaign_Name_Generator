@@ -34,7 +34,7 @@ brand = colbrand.selectbox(
      )
 sub_brand = colsubbrand.selectbox(
     'Sub-Brand Title:',
-    ('NA', 'Dermoviva', 'Amla', 'Vatika', 'RTEcom')
+    ('NA', 'Dermoviva', 'Amla', 'Vatika', 'RTEcom', 'FSL')
     )
 
 colregion, colmarket = st.columns(2)
@@ -63,11 +63,11 @@ area = colarea.selectbox(
 colbuytype, coltargeting = st.columns(2)
 buytype = colbuytype.selectbox(
     'Campaign Buy Type:',
-    ('NA', 'CPMR', 'CPM', 'CPC', 'CPV', 'CPL', 'CPA', 'CPLPV')
+    ('NA', 'CPMR', 'CPM', 'CPC', 'CPV', 'CPL', 'CPA', 'CPLPV', 'RMKT')
 )
 targeting = coltargeting.selectbox(
     'Audience Targeting:',
-    ('NA', 'INTR', 'GEO', 'RMKT')
+    ('NA', 'INTR', 'GEO', 'RMKT', 'Custom', 'Affinity', 'CustomAffinity')
 )
 
 
@@ -93,7 +93,8 @@ product = colproduct.selectbox(
 )
 product_variant = colproductvariant.selectbox(
     'Product Variant/Creative Name:',
-    ('NA', 'SustainableDriving', 'Destination', 'OnOffRoad', 'EngineNoises', 'PotenzaSport', 'SilenceIsGolden', 'UGC', 'AugustPost6', 'AugustPost7')
+    ('NA', 'SustainableDriving', 'Destination', 'OnOffRoad', 'EngineNoises', 'PotenzaSport', 'SilenceIsGolden', 'UGC', 'AugustPost6', 'AugustPost7',
+     'SeptCarousel', 'AugCarousel', 'SeptHTML5')
 )
 
 collanguage, colgender = st.columns(2)
