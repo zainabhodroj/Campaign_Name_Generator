@@ -63,7 +63,7 @@ area = colarea.selectbox(
 colbuytype, coltargeting = st.columns(2)
 buytype = colbuytype.selectbox(
     'Campaign Buy Type:',
-    ('NA', 'CPMR', 'CPM', 'CPC', 'CPV', 'CPL', 'CPA', 'CPLPV', 'RMKT')
+    ('NA', 'CPMR', 'CPM', 'CPC', 'CPV', 'CPL', 'CPA', 'CPLPV', 'RMKT', 'CPE')
 )
 targeting = coltargeting.selectbox(
     'Audience Targeting:',
@@ -94,7 +94,8 @@ product = colproduct.selectbox(
 product_variant = colproductvariant.selectbox(
     'Product Variant/Creative Name:',
     ('NA', 'SustainableDriving', 'Destination', 'OnOffRoad', 'EngineNoises', 'PotenzaSport', 'SilenceIsGolden', 'UGC', 'AugustPost6', 'AugustPost7',
-     'SeptCarousel', 'AugCarousel', 'SeptHTML5', 'PostRamadanVideo')
+     'SeptCarousel', 'AugCarousel', 'SeptHTML5', 'PostRamadanVideo', ' SepPost2', 'SepPost3', 'SepPost4', 'SepPost5' , 'SeptPost6', 'SepPost7', 'SepPost8', 
+    'CRMCarousel', 'SystemCarousel')
 )
 
 collanguage, colgender = st.columns(2)
