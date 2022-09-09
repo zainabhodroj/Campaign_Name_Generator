@@ -121,7 +121,7 @@ format = colformat.selectbox(
 )
 
 device_name = st.selectbox(
-    'Device Name:',
+    'Device Type:',
     ('NA', 'Desktop', 'Mobile')
 )
 
