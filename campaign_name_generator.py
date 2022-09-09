@@ -46,7 +46,7 @@ region = colregion.selectbox(
 market = colmarket.selectbox(
     'Target Market:',
     ('NA', 'RoGCC', 'UAE', 'KSA', 'KW', 'QA', 'BH', 'OM', 'EG', 'ALG', 'MOROC', 'LBYA', 
-     'YMN', 'IRQ', 'JRDN', 'LEB', 'KAZAKH')
+     'YMN', 'IRQ', 'JRDN', 'LEB', 'KAZAKH', 'PKSTN', 'IND', 'RSNSPKCOUNT')
 )
 
 
