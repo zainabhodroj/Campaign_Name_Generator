@@ -67,7 +67,8 @@ buytype = colbuytype.selectbox(
 )
 targeting = coltargeting.selectbox(
     'Audience Targeting:',
-    ('NA', 'INTR', 'GEO', 'RMKT', 'Custom', 'Affinity', 'CustomAffinity', 'Custom&LookAlikes')
+    ('NA', 'INTR', 'GEO', 'RMKT', 'Custom', 'Affinity', 'CustomAffinity', 'Custom&LookAlikes', 
+    'InMarketAudience', 'AffinityAudience', 'SimilarToLeads', 'BusinessPlacement')
 )
 
 
@@ -140,7 +141,10 @@ month = colmonth.selectbox(
 st.title('')
 keyword_group = st.selectbox(
     'Keyword Group (For Google Search):',
-    ('NA', 'GNRC', 'COMPT', 'BRND')
+    ('NA', 'GNRC', 'COMPT', 'BRND', 'CitiesKWsEnglishUAE1', 'CitiesKWsEnglishDXB1', 'CitiesKWsEnglishAjman1',
+    'CitiesKWsEnglishSharjah', 'CitiesKWsEnglishRak', 'CitiesKWsEnglishDMCC', 'CitiesKWsEnglishFujairah',
+    'CitiesKWsEnglishShams', 'CitiesKWsEnglishRakez', 'TradeBusinessLicense', 'CompanyKeywords', 'EcommerceKeywords',
+    'FreelanceKeywords')
 )
 
 
