@@ -120,6 +120,10 @@ format = colformat.selectbox(
     'Expended', 'Gmail', 'Discovery', 'HTML5', 'StaticDisplay')
 )
 
+device_name = st.selectbox(
+    'Device Name:',
+    ('NA', 'Desktop', 'Mobile')
+)
 
 colyear, colmonth = st.columns(2)
 year = colyear.selectbox(
@@ -216,7 +220,7 @@ st.title('')
 main_campaign_name = (brand + '_' + sub_brand + '_' + product + '_' + region + '_' + placement + '_' + phase + '_' + buytype + '_' + 
                         special_offer + '_' + month + '_' + year)
 
-main_adset_name = (brand + '_' + sub_brand + '_' + product + '_' + product_variant + '_' + market + '_' + area + '_' + store + '_' + placement + '_' + targeting + '_' + special_offer + '_' + language + '_' + gender + '_' + age + '_' + month + '_' + year)
+main_adset_name = (brand + '_' + sub_brand + '_' + product + '_' + product_variant + '_' + market + '_' + area + '_' + store + '_' + placement + '_' + targeting + '_' + special_offer + '_' + language + '_' + gender + '_' + age + '_' + month + '_' + year + '_' + device_name)
 
 main_ad_name = (product_variant + '_' + special_offer + '_' + language + '_' + format + '_' + month + '_' + year)
 
@@ -228,7 +232,7 @@ main_ad_name = (product_variant + '_' + special_offer + '_' + language + '_' + f
 # Google Ads Campaign Structure
 search_campaign_name = (brand + '_' + sub_brand + '_' + product + '_' + region + '_' + market + '_' + area + '_' + store + '_' +
                         placement + '_' + targeting + '_' + keyword_group + '_' + phase + '_' + buytype + '_' + special_offer + '_' + 
-                        language + '_' + gender + '_' + age + '_' + month + '_' + year)
+                        language + '_' + gender + '_' + age + '_' + month + '_' + year + '_' + device_name)
 search_adgroup_name = (brand + '_' + sub_brand + '_' + product + '_' + product_variant + '_' + region + '_' + market + '_' + area + '_' + store + '_' +
                         placement + '_' + targeting + '_' + keyword_group + '_' + phase + '_' + buytype + '_' + special_offer + '_' + 
                         language + '_' + gender + '_' + age + '_' + month + '_' + year)
@@ -236,7 +240,7 @@ search_adgroup_name = (brand + '_' + sub_brand + '_' + product + '_' + product_v
 
 google_campaign_name = (brand + '_' + sub_brand + '_' + product + '_' + region + '_' + market + '_' + area + '_' + store + '_' +
                         placement + '_' + targeting + '_' + phase + '_' + buytype + '_' + special_offer + '_' + 
-                        language + '_' + gender + '_' + age + '_' + month + '_' + year)
+                        language + '_' + gender + '_' + age + '_' + month + '_' + year + '_' + device_name)
 google_adgroup_name = (brand + '_' + sub_brand + '_' + product + '_' + product_variant + '_' + region + '_' + market + '_' + area + '_' + store + '_' + 
                         placement + '_' + targeting + '_' + phase + '_' + buytype + '_' + special_offer + '_' + 
                         language + '_' + gender + '_' + age + '_' + month + '_' + year)
@@ -256,7 +260,7 @@ linkedin_campaign_group_name = (brand + '_' + phase + '_' + buytype + '_' + mont
 
 linkedin_campaign_name = (brand + '_' + sub_brand + '_' + product + '_' + region + '_' + market + '_' + area + '_' + store + '_' + 
                             placement + '_' + targeting + '_' + phase + '_' + buytype + '_' + special_offer + '_' + language + '_' + gender + '_' + 
-                            age + '_' + month + '_' + year)
+                            age + '_' + month + '_' + year + '_' + device_name)
 linkedin_ad_name = (product_variant + '_' + special_offer + '_' + language + '_' + format + '_' + month + '_' + year)
 
 #coded_linkedin_campaign_group_name = (coded_brand + '_' + phase + '_' + buytype + '_' + month + '_' + year)
