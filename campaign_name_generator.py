@@ -67,7 +67,7 @@ buytype = colbuytype.selectbox(
 )
 targeting = coltargeting.selectbox(
     'Audience Targeting:',
-    ('NA', 'INTR', 'GEO', 'RMKT', 'Custom', 'Affinity', 'CustomAffinity')
+    ('NA', 'INTR', 'GEO', 'RMKT', 'Custom', 'Affinity', 'CustomAffinity', 'Custom&LookAlikes')
 )
 
 
@@ -95,7 +95,7 @@ product_variant = colproductvariant.selectbox(
     'Product Variant/Creative Name:',
     ('NA', 'SustainableDriving', 'Destination', 'OnOffRoad', 'EngineNoises', 'PotenzaSport', 'SilenceIsGolden', 'UGC', 'AugustPost6', 'AugustPost7',
      'SeptCarousel', 'AugCarousel', 'SeptHTML5', 'PostRamadanVideo', ' SepPost2', 'SepPost3', 'SepPost4', 'SepPost5' , 'SeptPost6', 'SepPost7', 'SepPost8', 
-    'CRMCarousel', 'SystemCarousel')
+    'CRMCarousel', 'SystemCarousel', '999Offer')
 )
 
 collanguage, colgender = st.columns(2)
