@@ -63,7 +63,7 @@ area = colarea.selectbox(
 colbuytype, coltargeting = st.columns(2)
 buytype = colbuytype.selectbox(
     'Campaign Buy Type:',
-    ('NA', 'CPMR', 'CPM', 'CPC', 'CPV', 'CPL', 'CPA', 'CPLPV', 'RMKT', 'CPE')
+    ('NA', 'CPMR', 'CPM', 'CPC', 'CPV', 'CPL', 'CPA', 'CPLPV', 'RMKT', 'CPE', 'RnF')
 )
 targeting = coltargeting.selectbox(
     'Audience Targeting:',
@@ -113,7 +113,7 @@ gender = colgender.selectbox(
 colage, colformat = st.columns(2)
 age = colage.selectbox(
     'Target Age:',
-    ('NA', '18to24', '25to34', '18to54')
+    ('NA', '18to24', '25to34', '18to54', '18to50')
 )
 format = colformat.selectbox(
     'Ad Format:',
