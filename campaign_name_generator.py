@@ -63,7 +63,7 @@ area = colarea.selectbox(
 colbuytype, coltargeting = st.columns(2)
 buytype = colbuytype.selectbox(
     'Campaign Buy Type:',
-    ('NA', 'CPMR', 'CPM', 'CPC', 'CPV', 'CPL', 'CPA', 'CPLPV', 'RMKT', 'CPE', 'RnF', 'RnF1', 'RnF2')
+    ('NA', 'CPMR', 'CPM', 'CPC', 'CPV', 'CPL', 'CPA', 'CPLPV', 'RMKT', 'CPE', 'RnF', 'RnFEn', 'RnFAr')
 )
 targeting = coltargeting.selectbox(
     'Audience Targeting:',
