@@ -68,7 +68,7 @@ buytype = colbuytype.selectbox(
 targeting = coltargeting.selectbox(
     'Audience Targeting:',
     ('NA', 'INTR', 'GEO', 'RMKT', 'Custom', 'Affinity', 'CustomAffinity', 'Custom&LookAlikes', 
-    'InMarketAudience', 'AffinityAudience', 'SimilarToLeads', 'BusinessPlacement', 'Multiple', 'RLSA', 'SimilarAudience')
+    'InMarketAudience', 'AffinityAudience', 'SimilarToLeads', 'BusinessPlacement', 'Multiple', 'RLSA', 'SimilarAudience', 'WBSTVisitors', 'SMLRtoWBSTVisitors')
 )
 
 
