@@ -68,7 +68,7 @@ buytype = colbuytype.selectbox(
 targeting = coltargeting.selectbox(
     'Audience Targeting:',
     ('NA', 'INTR', 'GEO', 'RMKT', 'Custom', 'Affinity', 'CustomAffinity', 'Custom&LookAlikes', 
-    'InMarketAudience', 'AffinityAudience', 'SimilarToLeads', 'BusinessPlacement')
+    'InMarketAudience', 'AffinityAudience', 'SimilarToLeads', 'BusinessPlacement', 'Multiple')
 )
 
 
@@ -76,7 +76,7 @@ colplacement, colspecialoffer = st.columns(2)
 placement = colplacement.selectbox(
     'Advertising Media Platform:',
     ('NA', 'FBIG', 'IG', 'FB', 'GDN', 'SRCH', 'YT', 'SNAP', 
-    'TT', 'LNKDI', 'YHO', 'SPKL', 'TDS', 'AMZN')
+    'TT', 'LNKDI', 'YHO', 'SPKL', 'TDS', 'AMZN', 'DSCVRY')
 )
 special_offer = colspecialoffer.selectbox(
     'Special Offer Title:',
@@ -90,7 +90,7 @@ st.title('')
 colproduct, colproductvariant = st.columns(2)
 product = colproduct.selectbox(
     'Product Name:',
-    ('NA', 'Dueler', 'Potenza', 'Alenza', 'Ecopia', 'ContentHub', 'UGC')
+    ('NA', 'Dueler', 'Potenza', 'Alenza', 'Ecopia', 'ContentHub', 'UGC', 'SME')
 )
 product_variant = colproductvariant.selectbox(
     'Product Variant/Creative Name:',
@@ -118,7 +118,7 @@ age = colage.selectbox(
 format = colformat.selectbox(
     'Ad Format:',
     ('NA', 'StaticImage', 'Video', 'Carousel', 'Catalog', 'Responsive', 
-    'Expended', 'Gmail', 'Discovery', 'HTML5', 'StaticDisplay')
+    'Expended', 'Gmail', 'Discovery', 'HTML5', 'StaticDisplay', 'Multiple')
 )
 
 device_name = st.selectbox(
@@ -144,7 +144,7 @@ keyword_group = st.selectbox(
     ('NA', 'GNRC', 'COMPT', 'BRND', 'CitiesKWsEnglishUAE1', 'CitiesKWsEnglishDXB1', 'CitiesKWsEnglishAjman1',
     'CitiesKWsEnglishSharjah', 'CitiesKWsEnglishRak', 'CitiesKWsEnglishDMCC', 'CitiesKWsEnglishFujairah',
     'CitiesKWsEnglishShams', 'CitiesKWsEnglishRakez', 'TradeBusinessLicense', 'CompanyKeywords', 'EcommerceKeywords',
-    'FreelanceKeywords')
+    'FreelanceKeywords', 'Brand&Generic')
 )
 
 
