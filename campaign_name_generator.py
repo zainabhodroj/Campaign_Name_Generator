@@ -5,6 +5,8 @@ import pandas as pd
 import numpy as np
 
 
+@st.cache(suppress_st_warning=True)
+
 st.title('Campaign Name Generator')
 st.write('The following application enables users to generate unified \
     names for Campaigns, Ad Groups, and Ads. Simply \
