@@ -34,7 +34,7 @@ brand = colbrand.selectbox(
      )
 sub_brand = colsubbrand.selectbox(
     'Sub-Brand Title:',
-    ('NA', 'Dermoviva', 'Amla', 'Vatika', 'RTEcom', 'FSL')
+    ('NA', 'Lunar Dial Series', 'Dermoviva', 'Amla', 'Vatika', 'RTEcom', 'FSL')
     )
 
 colregion, colmarket = st.columns(2)
@@ -90,14 +90,14 @@ st.title('')
 colproduct, colproductvariant = st.columns(2)
 product = colproduct.selectbox(
     'Product Name:',
-    ('NA', 'All', 'System', 'CRM', 'Dueler', 'Potenza', 'Alenza', 'Ecopia', 'ContentHub', 'UGC', 'SME', 'Polyethylene', 'Polypropylene', 'FoodPackaging')
+    ('NA', 'All', 'WashingMachine', 'System', 'CRM', 'Dueler', 'Potenza', 'Alenza', 'Ecopia', 'ContentHub', 'UGC', 'SME', 'Polyethylene', 'Polypropylene', 'FoodPackaging')
 )
 product_variant = colproductvariant.selectbox(
     'Product Variant/Creative Name:',
     ('NA', 'SustainableDriving', 'Destination', 'OnOffRoad', 'EngineNoises', 'PotenzaSport', 'SilenceIsGolden', 'UGC', 'AugustPost6', 'AugustPost7',
      'SeptCarousel', 'AugCarousel', 'SeptHTML5', 'PostRamadanVideo', ' SepPost2', 'SepPost3', 'SepPost4', 'SepPost5' , 'SeptPost6', 'SepPost7', 'SepPost8', 
     'CRMCarousel', 'SystemCarousel', '999Offer', 'TyreWear', 'Breathtaking', ' EngineeredToImpress', 'ReadyForTakeOff', 'PerfectModel', 'ReadyForWherever', 'OffRoad',
-    'WobblingTyre', 'TyreWear')
+    'WobblingTyre', 'TyreWear', 'FatherSon', 'MotherSon', '28Sec', '57Sec', '15Sec')
 )
 
 collanguage, colgender = st.columns(2)
