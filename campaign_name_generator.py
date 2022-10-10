@@ -80,7 +80,7 @@ placement = colplacement.selectbox(
 )
 special_offer = colspecialoffer.selectbox(
     'Special Offer Title:',
-    ('NA', 'FreeBHD3', 'SpecialOffer', 'RamadanWrapUp', 'Testimonial', 'Buy2Get1Free', 'LastDays', 'NationalDay')
+    ('NA', 'Contextual', 'FreeBHD3', 'SpecialOffer', 'RamadanWrapUp', 'Testimonial', 'Buy2Get1Free', 'LastDays', 'NationalDay')
 )
 
 
