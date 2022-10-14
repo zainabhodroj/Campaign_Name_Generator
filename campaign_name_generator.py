@@ -95,7 +95,7 @@ product = colproduct.selectbox(
 )
 product_variant = colproductvariant.selectbox(
     'Product Variant/Creative Name:',
-    ('NA', 'Archi', 'Tech', 'Artist', 'KV1', 'KV2', 'KV3', 'ArchiKV2', 'TechKV3', 'ArtistKV1', 'Toyota', 'Kia', 'Hyundai', 'Geely', 'CashIndividual', 'UsedCars', 'Suzuki', 
+    ('NA', 'SME', 'Auto', 'Archi', 'Tech', 'Artist', 'KV1', 'KV2', 'KV3', 'ArchiKV2', 'TechKV3', 'ArtistKV1', 'Toyota', 'Kia', 'Hyundai', 'Geely', 'CashIndividual', 'UsedCars', 'Suzuki', 
      'SustainableDriving', 'Destination', 'OnOffRoad', 'EngineNoises', 'PotenzaSport', 'SilenceIsGolden', 'UGC', 'AugustPost6', 'AugustPost7',
      'SeptCarousel', 'AugCarousel', 'SeptHTML5', 'PostRamadanVideo', ' SepPost2', 'SepPost3', 'SepPost4', 'SepPost5' , 'SeptPost6', 'SepPost7', 'SepPost8', 
     'CRMCarousel', 'SystemCarousel', '999Offer', 'TyreWear', 'Breathtaking', ' EngineeredToImpress', 'ReadyForTakeOff', 'PerfectModel', 'ReadyForWherever', 'OffRoad',
