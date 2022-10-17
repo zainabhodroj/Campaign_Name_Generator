@@ -46,7 +46,7 @@ region = colregion.selectbox(
 market = colmarket.selectbox(
     'Target Market:',
     ('NA', 'RoGCC', 'UAE', 'KSA', 'KW', 'QA', 'BH', 'OM', 'EG', 'ALG', 'MOROC', 'LBYA', 
-     'YMN', 'IRQ', 'JRDN', 'LEB', 'KAZAKH', 'PKSTN', 'IND', 'RSNSPKCNT', 'SPN', 'TRKY', 'VTNM')
+     'YMN', 'IRQ', 'JRDN', 'LEB', 'KAZAKH', 'PKSTN', 'IND', 'RSNSPKCNT', 'SPN', 'TRKY', 'VTNM', 'JDAH')
 )
 
 
@@ -57,7 +57,7 @@ store = colstore.selectbox(
 )
 area = colarea.selectbox(
     'Target Area:',
-    ('NA', 'Dubai', 'AbuDahbi', 'Riyadh')
+    ('NA', 'Dubai', 'AbuDahbi', 'Riyadh', 'Jeddah')
 )
 
 colbuytype, coltargeting = st.columns(2)
