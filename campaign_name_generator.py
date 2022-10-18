@@ -41,7 +41,7 @@ colregion, colmarket = st.columns(2)
 
 region = colregion.selectbox(
     'Target Region:',
-    ('NA', 'Multiple', 'GCC', 'MENA', 'Egypt', 'KSA', 'Generic', 'Cities')
+    ('NA', 'Multiple', 'GCC', 'MENA', 'Egypt', 'KSA', 'Generic', 'Cities', 'Jeddah')
 )
 market = colmarket.selectbox(
     'Target Market:',
