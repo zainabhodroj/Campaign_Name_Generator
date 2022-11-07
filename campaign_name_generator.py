@@ -76,7 +76,7 @@ colplacement, colspecialoffer = st.columns(2)
 placement = colplacement.selectbox(
     'Advertising Media Platform:',
     ('NA', 'FBIG', 'IG', 'FB', 'GDN', 'SRCH', 'YT', 'SNAP', 
-    'TT', 'LNKDI', 'YHO', 'SPKL', 'TDS', 'AMZN', 'DSCVRY', 'TWT')
+    'TT', 'LNKDI', 'YHO', 'SPKL', 'TDS', 'AMZN', 'DSCVRY', 'TWT', 'Nabd', 'Quora')
 )
 special_offer = colspecialoffer.selectbox(
     'Special Offer Title:',
