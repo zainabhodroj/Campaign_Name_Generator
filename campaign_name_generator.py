@@ -102,7 +102,8 @@ product_variant = colproductvariant.selectbox(
      'SeptCarousel', 'AugCarousel', 'SeptHTML5', 'PostRamadanVideo', ' SepPost2', 'SepPost3', 'SepPost4', 'SepPost5' , 'SeptPost6', 'SepPost7', 'SepPost8', 
     'CRMCarousel', 'SystemCarousel', '999Offer', 'TyreWear', 'Breathtaking', ' EngineeredToImpress', 'ReadyForTakeOff', 'PerfectModel', 'ReadyForWherever', 'OffRoad',
     'WobblingTyre', 'TyreWear', 'FatherSon', 'MotherSon', '28Sec', '57Sec', '15Sec', 'MotherSon&FatherSon', 'DistractedDriving', 'ClearRoad', 'PotenzaSport', 'Maserati',
-    'RealEstate', 'Microfinance', 'Smooth&BaldTyres', 'IjarahHome', 'IjarahLand', 'BuildingCompletionSME', 'Sale&LeaseBack', 'Kia1', 'Kia2')
+    'RealEstate', 'Microfinance', 'Smooth&BaldTyres', 'IjarahHome', 'IjarahLand', 'BuildingCompletionSME', 'Sale&LeaseBack', 'Kia1', 'Kia2', 'LongLasting',
+    'Product1', 'Product2', 'Product3', 'Product4')
 )
 
 collanguage, colgender = st.columns(2)
