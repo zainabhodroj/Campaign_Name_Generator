@@ -103,7 +103,7 @@ product_variant = colproductvariant.selectbox(
     'CRMCarousel', 'SystemCarousel', '999Offer', 'TyreWear', 'Breathtaking', ' EngineeredToImpress', 'ReadyForTakeOff', 'PerfectModel', 'ReadyForWherever', 'OffRoad',
     'WobblingTyre', 'TyreWear', 'FatherSon', 'MotherSon', '28Sec', '57Sec', '15Sec', 'MotherSon&FatherSon', 'DistractedDriving', 'ClearRoad', 'PotenzaSport', 'Maserati',
     'RealEstate', 'Microfinance', 'Smooth&BaldTyres', 'IjarahHome', 'IjarahLand', 'BuildingCompletionSME', 'Sale&LeaseBack', 'Kia1', 'Kia2', 'LongLasting',
-    'Product1', 'Product2', 'Product3', 'Product4', 'Tactical')
+    'Product1', 'Product2', 'Product3', 'Product4', 'Tactical', '15mill')
 )
 
 collanguage, colgender = st.columns(2)
