@@ -93,7 +93,7 @@ product = colproduct.selectbox(
     'Product Name:',
     ('NA', 'All', 'WashingMachine', 'System', 'CRM', 'Dueler', 'Potenza', 'Alenza', 'Ecopia', 'ContentHub', 'UGC', 'SME', 'Auto',
      'Polyethylene', 'Polypropylene', 'FoodPackaging', 'SME', 'Toyota', 'Kia', 'Hyundai', 'Geely', 'CashIndividual', 'UsedCars', 'DistractedDriving', 'ClearRoad',
-    'RealEstate', 'Microfinance')
+    'RealEstate', 'Microfinance', 'TodayTab', 'SrchTab', 'SrchResults')
 )
 product_variant = colproductvariant.selectbox(
     'Product Variant/Creative Name:',
