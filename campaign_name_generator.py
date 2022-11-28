@@ -69,7 +69,7 @@ targeting = coltargeting.selectbox(
     'Audience Targeting:',
     ('NA', 'INTR', 'GEO', 'RMKT', 'Custom', 'Affinity', 'CustomAffinity', 'Custom&LookAlikes', 
     'InMarketAudience', 'AffinityAudience', 'SimilarToLeads', 'BusinessPlacement', 'Multiple', 'RLSA', 'SimilarAudience', 'WBSTVisitors', 'SMLRtoWBSTVisitors', 'Topic',
-    'SMLRWebt&Apps')
+    'SMLRWebt&Apps', 'Auto')
 )
 
 
