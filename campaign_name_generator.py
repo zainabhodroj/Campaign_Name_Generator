@@ -21,7 +21,7 @@ st.title("")
 
 phase = st.selectbox(
     'Campaign Phase:',
-    ('NA', 'AWRNS', 'TRFC', 'CONV')
+    ('NA', 'AWRNS', 'TRFC', 'CONV', 'APP')
 )
 
 st.title('')
@@ -34,7 +34,7 @@ brand = colbrand.selectbox(
      )
 sub_brand = colsubbrand.selectbox(
     'Sub-Brand Title:',
-    ('NA', 'AlwaysOn', 'SME', 'Auto', 'CashIndividual', 'UsedCars', 'LunarDialSeries', 'Dermoviva', 'Amla', 'Vatika', 'RTEcom', 'FSL')
+    ('NA', 'AlwaysOn', 'SME', 'Auto', 'CashIndividual', 'UsedCars', 'LunarDialSeries', 'Dermoviva', 'Amla', 'Vatika', 'RTEcom', 'FSL', 'ALJapp')
     )
 
 colregion, colmarket = st.columns(2)
@@ -77,7 +77,7 @@ colplacement, colspecialoffer = st.columns(2)
 placement = colplacement.selectbox(
     'Advertising Media Platform:',
     ('NA', 'FBIG', 'IG', 'FB', 'GDN', 'SRCH', 'YT', 'SNAP', 
-    'TT', 'LNKDI', 'YHO', 'SPKL', 'TDS', 'AMZN', 'DSCVRY', 'TWT', 'Nabd', 'Quora')
+    'TT', 'LNKDI', 'YHO', 'SPKL', 'TDS', 'AMZN', 'DSCVRY', 'TWT', 'Nabd', 'Quora', 'GoogleUniversalAppCampaign', 'PremiumMobileNetwork')
 )
 special_offer = colspecialoffer.selectbox(
     'Special Offer Title:',
@@ -103,7 +103,7 @@ product_variant = colproductvariant.selectbox(
     'CRMCarousel', 'SystemCarousel', '999Offer', 'TyreWear', 'Breathtaking', ' EngineeredToImpress', 'ReadyForTakeOff', 'PerfectModel', 'ReadyForWherever', 'OffRoad',
     'WobblingTyre', 'TyreWear', 'FatherSon', 'MotherSon', '28Sec', '57Sec', '15Sec', 'MotherSon&FatherSon', 'DistractedDriving', 'ClearRoad', 'PotenzaSport', 'Maserati',
     'RealEstate', 'Microfinance', 'Smooth&BaldTyres', 'IjarahHome', 'IjarahLand', 'BuildingCompletionSME', 'Sale&LeaseBack', 'Kia1', 'Kia2', 'LongLasting',
-    'Product1', 'Product2', 'Product3', 'Product4', 'Tactical', '15mill', 'AutumnPlaylist')
+    'Product1', 'Product2', 'Product3', 'Product4', 'Tactical', '15mill', 'AutumnPlaylist', '15secCTA', '15sec', '46sec')
 )
 
 collanguage, colgender = st.columns(2)
