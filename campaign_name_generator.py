@@ -130,7 +130,7 @@ format = colformat.selectbox(
 
 device_name = st.selectbox(
     'Device Type:',
-    ('NA', 'Desktop', 'Mobile')
+    ('NA', 'Desktop', 'Mobile', 'iOS', 'Android')
 )
 
 colyear, colmonth = st.columns(2)
