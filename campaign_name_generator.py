@@ -34,7 +34,8 @@ brand = colbrand.selectbox(
      )
 sub_brand = colsubbrand.selectbox(
     'Sub-Brand Title:',
-    ('NA', 'AlwaysOn', 'SME', 'Auto', 'CashIndividual', 'UsedCars', 'LunarDialSeries', 'Dermoviva', 'Amla', 'Vatika', 'RTEcom', 'FSL', 'ALJapp')
+    ('NA', 'AlwaysOn', 'SME', 'Auto', 'CashIndividual', 'UsedCars', 'LunarDialSeries', 'Dermoviva', 'Amla', 'Vatika', 'RTEcom', 'FSL', 'ALJapp',
+     'Fleet',  'Forklift')
     )
 
 colregion, colmarket = st.columns(2)
@@ -103,7 +104,8 @@ product_variant = colproductvariant.selectbox(
     'CRMCarousel', 'SystemCarousel', '999Offer', 'TyreWear', 'Breathtaking', ' EngineeredToImpress', 'ReadyForTakeOff', 'PerfectModel', 'ReadyForWherever', 'OffRoad',
     'WobblingTyre', 'TyreWear', 'FatherSon', 'MotherSon', '28Sec', '57Sec', '15Sec', 'MotherSon&FatherSon', 'DistractedDriving', 'ClearRoad', 'PotenzaSport', 'Maserati',
     'RealEstate', 'Microfinance', 'Smooth&BaldTyres', 'IjarahHome', 'IjarahLand', 'BuildingCompletionSME', 'Sale&LeaseBack', 'Kia1', 'Kia2', 'LongLasting',
-    'Product1', 'Product2', 'Product3', 'Product4', 'Tactical', '15mill', 'AutumnPlaylist', '15secCTA', '15sec', '46sec', 'TamakanSME', 'Dependability', 'PerformancePower')
+    'Product1', 'Product2', 'Product3', 'Product4', 'Tactical', '15mill', 'AutumnPlaylist', '15secCTA', '15sec', '46sec', 'TamakanSME', 'Dependability', 'PerformancePower',
+    'Fleet', 'Forklift')
 )
 
 collanguage, colgender = st.columns(2)
