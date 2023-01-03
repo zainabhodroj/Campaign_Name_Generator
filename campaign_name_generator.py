@@ -94,7 +94,7 @@ product = colproduct.selectbox(
     'Product Name:',
     ('NA', 'All', 'WashingMachine', 'System', 'CRM', 'Dueler', 'Potenza', 'Alenza', 'Ecopia', 'ContentHub', 'UGC', 'SME', 'Auto',
      'Polyethylene', 'Polypropylene', 'FoodPackaging', 'SME', 'Toyota', 'Kia', 'Hyundai', 'Geely', 'CashIndividual', 'UsedCars', 'DistractedDriving', 'ClearRoad',
-    'RealEstate', 'Microfinance', 'TodayTab', 'SrchTab', 'SrchResults', 'ProductPage', 'app', 'Excellence', 'Stars', 'Emergency')
+    'RealEstate', 'Microfinance', 'TodayTab', 'SrchTab', 'SrchResults', 'ProductPage', 'app', 'Excellence', 'Stars')
 )
 product_variant = colproductvariant.selectbox(
     'Product Variant/Creative Name:',
@@ -105,7 +105,7 @@ product_variant = colproductvariant.selectbox(
     'WobblingTyre', 'TyreWear', 'FatherSon', 'MotherSon', '28Sec', '57Sec', '15Sec', 'MotherSon&FatherSon', 'DistractedDriving', 'ClearRoad', 'PotenzaSport', 'Maserati',
     'RealEstate', 'Microfinance', 'Smooth&BaldTyres', 'IjarahHome', 'IjarahLand', 'BuildingCompletionSME', 'Sale&LeaseBack', 'Kia1', 'Kia2', 'LongLasting',
     'Product1', 'Product2', 'Product3', 'Product4', 'Tactical', '15mill', 'AutumnPlaylist', '15secCTA', '15sec', '46sec', 'TamakanSME', 'Dependability', 'PerformancePower',
-    'Fleet', 'Forklift')
+    'Fleet', 'Forklift', 'Emergency', 'Cold')
 )
 
 collanguage, colgender = st.columns(2)
