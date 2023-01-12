@@ -122,7 +122,7 @@ gender = colgender.selectbox(
 colage, colformat = st.columns(2)
 age = colage.selectbox(
     'Target Age:',
-    ('NA', '18to24', '25to34', '18to54', '18to50')
+    ('NA', '18to24', '24', '25to34', '18to54', '18to50')
 )
 format = colformat.selectbox(
     'Ad Format:',
