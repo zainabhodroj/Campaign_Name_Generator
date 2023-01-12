@@ -30,7 +30,7 @@ colbrand, colsubbrand = st.columns(2)
 brand = colbrand.selectbox(
      'Brand Title:',
      ('NA', 'RT', 'Dabur', 'Abbott', 'CapriSun', 'BS', 'FS', 'Twnenty4', 
-     'ALJUF', 'Midea', 'OQ', 'MAMC')
+     'ALJUF', 'Midea', 'OQ', 'UBF', 'MAMC')
      )
 sub_brand = colsubbrand.selectbox(
     'Sub-Brand Title:',
